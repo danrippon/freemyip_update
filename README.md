@@ -1,5 +1,5 @@
 # freemyip_update
-Python script to update freemyip.com dynamic DNS
+Python script to update [freemyip.com](https://freemyip.com) dynamic DNS
 
 # Purpose: 
 Make a HTTPS GET request to freemyip.com URL for dynamic DNS update
