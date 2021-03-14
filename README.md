@@ -13,3 +13,8 @@ Make a HTTPS GET request to freemyip.com URL for dynamic DNS update
 2. Edit freemyip_update.py replacing urls with your own
 3. Edit crontab to run periodically, 
    e.g., once per day. On most linux systems: 'crontab -e' add line: 0 0 * * * python /usr/local/bin/freemyip_update.py >> /home/dan/freemyup_update.log
+
+### Output will look something like this:
+Sun Mar 14 00:00:01 2021, update-script-test-1.freemyip.com, OK, IP xx.xxx.xxx.xx didn't change. No need to update record.  
+Sun Mar 14 00:00:01 2021, update-script-test-2.freemyip.com, OK, IP xx.xxx.xxx.xx didn't change. No need to update record.
+
