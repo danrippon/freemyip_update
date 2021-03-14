@@ -8,8 +8,7 @@ Created on Sun Mar 14 06:56:40 2021
 Purpose: Make a HTTPS GET request to freemyip.com URL for dynamic DNS update
 How to use: 
 1. Put freemyip.com URLS in urls list (remember to keep these secret)
-2. Run this script periodically on your host system, e.g., through chronjob daily
-3. Check freemyip_updates.log as needed
+2. Run this script periodically on your host system, e.g., through chronjob daily; log output as needed
 """
 
 import requests
